@@ -1,2 +1,2 @@
-# Executabel-Files
+# Executable Files
 Executable file dumps
