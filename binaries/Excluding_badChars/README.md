@@ -1,3 +1,6 @@
+
+Bad Char: `"\x00\x0a\x0d"` according to [ired](https://www.ired.team/offensive-security/code-injection-process-injection/process-injection)
+
 1. messagebox.exe
 > msfvenom -p windows/messagebox -f exe -b "\x00\x0a\x0d" -o messagebox.exe
 
