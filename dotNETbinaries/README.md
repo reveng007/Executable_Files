@@ -20,5 +20,3 @@ $ echo -ne "\xfc\x48\x81\xe4\xf0\xff\xff\xff\xe8\xd0\x00\x00\x00\x41\x51\x41\x50
 
 source link: https://ivanitlearning.wordpress.com/2018/10/14/shellcoding-with-msfvenom/
 
-cmd> certutil -encode .\mssgbox_shellcode_x64.bin .\mssgbox_shellcode_x64.b64
-
