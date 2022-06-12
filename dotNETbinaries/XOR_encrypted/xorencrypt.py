@@ -2,6 +2,7 @@
 # payload encryption with XOR
 #
 # author: reenz0h (twitter: @sektor7net)
+# Use: python2.exe .\xorencrypt.py .\mssgbox_shellcode_x64.bin
 
 import sys
 
