@@ -123,7 +123,7 @@ namespace mscorlib
 
             // Restoring function back to its original memory protection again
             VirtualProtect(traceAddr, (UIntPtr)magicbyte.Length, oldProtect, out uint newOldProtect);
-            Console.WriteLine("[+] EtwEventWrite function has been patched!");
+	    Console.WriteLine("[+] EtwEventWrite function has been patched!");
         }
         static void AmsiBypass()
         {
@@ -151,7 +151,7 @@ namespace mscorlib
             EtwBypass();
             //Console.ReadKey();
             AmsiBypass();
-            Console.ReadKey();
+            //Console.ReadKey();
         }
     }
 }
